@@ -1,0 +1,69 @@
+/* Сброс отступов и бордеров */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Фон страницы и шрифт */
+body {
+  font-family: Roboto, sans-serif;
+  background: #0e5093;fcfcee;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Карточка */
+.card {
+  background: #6c81d3;
+  width: 10000px;
+  padding: 100px;
+  text-align: center;
+  border-radius: 0px;
+  box-shadow: 1px -1px 20px 20px rgb(71 71 71 / 22%)
+}
+
+/* Аватар */
+.avatar {
+  width: 0x;
+  height: 300px;
+  border-radius: 5%;
+  margin-bottom: 15px;
+}
+
+/* Имя */
+.name {
+  font-size: 24px;
+  color: #000000;
+  margin-bottom: 5px;
+}
+
+/* Профессия */
+.profession {
+  font-size: 16px;
+  color: #000000;
+  margin-bottom: 15px;
+}
+
+/* Описание */
+.about {
+  font-size: 14px;
+  color: #000000;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+/* Контакты */
+.contacts a {
+  display: block;
+  color: #000000;
+  text-decoration: none;
+  margin-bottom: 8px;
+  transition: color .2s;
+}
+
+.contacts a:hover {
+  color: #000000;
+}
